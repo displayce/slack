@@ -1,0 +1,14 @@
+CL\Slack\Model\AttachmentAction:
+    properties:
+        name:
+            type: string
+        text:
+            type: string
+        style:
+            type: string
+        type:
+            type: string
+        value:
+            type: string
+        confirm:
+            type: CL\Slack\Model\AttachmentConfirm

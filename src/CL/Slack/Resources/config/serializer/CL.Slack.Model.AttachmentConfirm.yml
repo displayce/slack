@@ -1,0 +1,10 @@
+CL\Slack\Model\AttachmentConfirm:
+    properties:
+        title:
+            type: string
+        text:
+            type: string
+        okText:
+            type: string
+        dismissText:
+            type: string
