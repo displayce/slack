@@ -71,6 +71,11 @@ class Attachment extends AbstractModel
     private $fallback;
 
     /**
+     * @var string
+     */
+    private $callbackId;
+
+    /**
      * @var AttachmentField[]|ArrayCollection
      */
     private $fields;
@@ -204,6 +209,24 @@ class Attachment extends AbstractModel
     {
         return $this->fallback;
     }
+
+    /**
+     * @return string
+     */
+    public function getCallbackId()
+    {
+        return $this->callbackId;
+    }
+
+    /**
+     * @param string $callbackId
+     */
+    public function setCallbackId($callbackId)
+    {
+        $this->callbackId = $callbackId;
+    }
+
+
 
     /**
      * @param string|null $preText Optional text that should appear above the formatted data.

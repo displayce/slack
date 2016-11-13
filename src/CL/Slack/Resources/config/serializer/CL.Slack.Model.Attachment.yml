@@ -4,6 +4,8 @@ CL\Slack\Model\Attachment:
             type: string
         fallback:
             type: string
+        callbackId:
+            type: string
         preText:
             type: string
         imageUrl:
