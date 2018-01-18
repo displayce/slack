@@ -47,6 +47,11 @@ class AttachmentAction extends AbstractModel
      * @var AttachmentConfirm
      */
     private $confirm;
+    
+    /**
+     * @var string
+     */
+    private $url;
 
     /**
      * @return string
