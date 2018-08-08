@@ -28,10 +28,14 @@ class GroupsOpenPayload extends AbstractPayload
 
     /**
      * @param string $groupId ID of the group to set reading cursor in.
+     *
+     * @return GroupsOpenPayload
      */
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**

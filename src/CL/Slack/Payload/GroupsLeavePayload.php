@@ -28,10 +28,14 @@ class GroupsLeavePayload extends AbstractPayload
 
     /**
      * @param string $groupId ID of the group to leave
+     *
+     * @return GroupsLeavePayload
      */
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**

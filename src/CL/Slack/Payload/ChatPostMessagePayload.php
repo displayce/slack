@@ -92,10 +92,14 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
      * Can be a public channel, private group, IM channel, encoded ID, or a name.
      *
      * @param string $channel
+     *
+     * @return ChatPostMessagePayload
      */
     public function setChannel($channel)
     {
         $this->channel = $channel;
+
+        return $this;
     }
 
     /**
@@ -110,10 +114,14 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
      * @param string $text Actual message to send.
      *
      * @see https://api.slack.com/docs/formatting for an explanation of formatting.
+     *
+     * @return ChatPostMessagePayload
      */
     public function setText($text)
     {
         $this->text = $text;
+
+        return $this;
     }
 
     /**
@@ -128,10 +136,14 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
      * @param string $message
      *
      * @deprecated Will be removed soon, use `setText()` instead
+     *
+     * @return ChatPostMessagePayload
      */
     public function setMessage($message)
     {
         $this->setText($message);
+
+        return $this;
     }
 
     /**
@@ -146,10 +158,14 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
 
     /**
      * @param string $username Name of bot that will send the message (can be any name you want).
+     *
+     * @return ChatPostMessagePayload
      */
     public function setUsername($username)
     {
         $this->username = $username;
+
+        return $this;
     }
 
     /**
@@ -162,10 +178,14 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
 
     /**
      * @param bool $asUser Pass message as authorized user
+     *
+     * @return ChatPostMessagePayload
      */
     public function setAsUser($asUser)
     {
         $this->asUser = $asUser;
+
+        return $this;
     }
 
     /**
@@ -180,10 +200,14 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
      * @param string $parse Change how messages are treated.
      *
      * @see https://api.slack.com/docs/formatting
+     *
+     * @return ChatPostMessagePayload
      */
     public function setParse($parse)
     {
         $this->parse = $parse;
+
+        return $this;
     }
 
     /**
@@ -202,6 +226,8 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
      * @see https://{YOURSLACKTEAMHERE}.slack.com/customize/emoji
      *
      * @param string|null $iconEmoji Emoji to use as the icon for this message (overrides icon URL).
+     *
+     * @return ChatPostMessagePayload
      */
     public function setIconEmoji($iconEmoji)
     {
@@ -210,6 +236,8 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
         }
 
         $this->iconEmoji = $iconEmoji;
+
+        return $this;
     }
 
     /**
@@ -222,10 +250,14 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
 
     /**
      * @param string|null $iconUrl URL to an image to use as the icon for this message.
+     *
+     * @return ChatPostMessagePayload
      */
     public function setIconUrl($iconUrl)
     {
         $this->iconUrl = $iconUrl;
+
+        return $this;
     }
 
     /**
@@ -243,10 +275,14 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
      * @see https://api.slack.com/docs/unfurling
      *
      * @param bool $unfurlLinks Pass true to enable unfurling of primarily text-based content.
+     *
+     * @return ChatPostMessagePayload
      */
     public function setUnfurlLinks($unfurlLinks)
     {
         $this->unfurlLinks = $unfurlLinks;
+
+        return $this;
     }
 
     /**
@@ -261,10 +297,14 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
      * @see https://api.slack.com/docs/unfurling
      *
      * @param bool $unfurlMedia Pass false to disable unfurling of media content.
+     *
+     * @return ChatPostMessagePayload
      */
     public function setUnfurlMedia($unfurlMedia)
     {
         $this->unfurlMedia = $unfurlMedia;
+
+        return $this;
     }
 
     /**
@@ -277,10 +317,14 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
 
     /**
      * @param bool $linkNames Set to true to automatically find and link channel names and usernames in the message.
+     *
+     * @return ChatPostMessagePayload
      */
     public function setLinkNames($linkNames)
     {
         $this->linkNames = $linkNames;
+
+        return $this;
     }
 
     /**
@@ -303,10 +347,14 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
 
     /**
      * @param Attachment $attachment
+     *
+     * @return ChatPostMessagePayload
      */
     public function addAttachment(Attachment $attachment)
     {
         $this->attachments->add($attachment);
+
+        return $this;
     }
 
     /**

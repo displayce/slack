@@ -25,10 +25,14 @@ class UsersSetPresencePayload extends AbstractPayload
 
     /**
      * @param string $presence
+     *
+     * @return UsersSetPresencePayload
      */
     public function setPresence($presence)
     {
         $this->presence = $presence;
+
+        return $this;
     }
 
     /**

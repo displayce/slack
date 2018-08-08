@@ -52,10 +52,14 @@ class FilesListPayload extends AbstractPayload
      * Filter files created by a single user.
      *
      * @param string $userId
+     *
+     * @return FilesListPayload
      */
     public function setUserId($userId)
     {
         $this->user = $userId;
+
+        return $this;
     }
 
     /**
@@ -70,10 +74,14 @@ class FilesListPayload extends AbstractPayload
      * Filter files created after this timestamp (inclusive).
      *
      * @param \DateTime|null $timestampFrom
+     *
+     * @return FilesListPayload
      */
     public function setTimestampFrom(\DateTime $timestampFrom = null)
     {
         $this->tsFrom = $timestampFrom;
+
+        return $this;
     }
 
     /**
@@ -88,10 +96,14 @@ class FilesListPayload extends AbstractPayload
      * Filter files created before this timestamp (inclusive).
      *
      * @param \DateTime|null $timestampTo
+     *
+     * @return FilesListPayload
      */
     public function setTimestampTo(\DateTime $timestampTo = null)
     {
         $this->tsTo = $timestampTo;
+
+        return $this;
     }
 
     /**
@@ -104,10 +116,14 @@ class FilesListPayload extends AbstractPayload
 
     /**
      * @param int $count Number of items to return per page.
+     *
+     * @return FilesListPayload
      */
     public function setCount($count)
     {
         $this->count = $count;
+
+        return $this;
     }
 
     /**
@@ -120,10 +136,14 @@ class FilesListPayload extends AbstractPayload
 
     /**
      * @param int $page Page number of results to return.
+     *
+     * @return FilesListPayload
      */
     public function setPage($page)
     {
         $this->page = $page;
+
+        return $this;
     }
 
     /**
@@ -148,10 +168,14 @@ class FilesListPayload extends AbstractPayload
      * The default value is all, which does not filter the list.
      *
      * @param array $types
+     *
+     * @return FilesListPayload
      */
     public function setTypes(array $types)
     {
         $this->types = $types;
+
+        return $this;
     }
 
     /**
@@ -164,10 +188,14 @@ class FilesListPayload extends AbstractPayload
 
     /**
      * @param string $types
+     *
+     * @return FilesListPayload
      */
     public function setTypesFromString($types)
     {
         $this->types = explode(',', $types);
+
+        return $this;
     }
 
     /**

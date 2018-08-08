@@ -35,10 +35,14 @@ class FilesInfoPayload extends AbstractPayload
 
     /**
      * @param int|null $count
+     *
+     * @return FilesInfoPayload
      */
     public function setCount($count)
     {
         $this->count = $count;
+
+        return $this;
     }
 
     /**
@@ -51,10 +55,14 @@ class FilesInfoPayload extends AbstractPayload
 
     /**
      * @param string $file
+     *
+     * @return FilesInfoPayload
      */
     public function setFileId($file)
     {
         $this->file = $file;
+
+        return $this;
     }
 
     /**
@@ -67,10 +75,14 @@ class FilesInfoPayload extends AbstractPayload
 
     /**
      * @param int|null $page
+     *
+     * @return FilesInfoPayload
      */
     public function setPage($page)
     {
         $this->page = $page;
+
+        return $this;
     }
 
     /**

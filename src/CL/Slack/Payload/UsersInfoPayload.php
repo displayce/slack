@@ -24,11 +24,15 @@ class UsersInfoPayload extends AbstractPayload
     private $user;
 
     /**
-     * @param string $user ID of the user to get info on
+     * @param $user ID of the user to get info on
+     *
+     * @return UsersInfoPayload
      */
     public function setUserId($user)
     {
         $this->user = $user;
+
+        return $this;
     }
 
     /**

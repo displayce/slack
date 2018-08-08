@@ -25,10 +25,14 @@ class GroupsUnarchivePayload extends AbstractPayload
 
     /**
      * @param string $groupId ID of the group to remove user from
+     *
+     * @return GroupsUnarchivePayload
      */
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**

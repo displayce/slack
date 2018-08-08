@@ -48,10 +48,14 @@ class GroupsHistoryPayload extends AbstractPayload
 
     /**
      * @param string $groupId ID of the group to clone and archive.
+     *
+     * @return GroupsHistoryPayload
      */
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**
@@ -64,10 +68,14 @@ class GroupsHistoryPayload extends AbstractPayload
 
     /**
      * @param string|string|null $latest
+     *
+     * @return GroupsHistoryPayload
      */
     public function setLatest($latest = null)
     {
         $this->latest = $latest;
+
+        return $this;
     }
 
     /**
@@ -80,10 +88,14 @@ class GroupsHistoryPayload extends AbstractPayload
 
     /**
      * @param string|null $oldest
+     *
+     * @return GroupsHistoryPayload
      */
     public function setOldest($oldest = null)
     {
         $this->oldest = $oldest;
+
+        return $this;
     }
 
     /**
@@ -96,10 +108,14 @@ class GroupsHistoryPayload extends AbstractPayload
 
     /**
      * @param int|null $count
+     *
+     * @return GroupsHistoryPayload
      */
     public function setCount($count = null)
     {
         $this->count = $count;
+
+        return $this;
     }
 
     /**
@@ -112,10 +128,14 @@ class GroupsHistoryPayload extends AbstractPayload
 
     /**
      * @param bool $inclusive
+     *
+     * @return GroupsHistoryPayload
      */
     public function setInclusive($inclusive)
     {
         $this->inclusive = $inclusive;
+
+        return $this;
     }
 
     /**

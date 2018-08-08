@@ -47,10 +47,14 @@ class ImHistoryPayload extends AbstractPayload
 
     /**
      * @param string $imId
+     *
+     * @return ImHistoryPayload
      */
     public function setImId($imId)
     {
         $this->channel = $imId;
+
+        return $this;
     }
 
     /**
@@ -63,10 +67,14 @@ class ImHistoryPayload extends AbstractPayload
 
     /**
      * @param string|string|null $latest
+     *
+     * @return ImHistoryPayload
      */
     public function setLatest($latest = null)
     {
         $this->latest = $latest;
+
+        return $this;
     }
 
     /**
@@ -79,10 +87,14 @@ class ImHistoryPayload extends AbstractPayload
 
     /**
      * @param string|null $oldest
+     *
+     * @return ImHistoryPayload
      */
     public function setOldest($oldest = null)
     {
         $this->oldest = $oldest;
+
+        return $this;
     }
 
     /**
@@ -95,10 +107,14 @@ class ImHistoryPayload extends AbstractPayload
 
     /**
      * @param int|null $count
+     *
+     * @return ImHistoryPayload
      */
     public function setCount($count = null)
     {
         $this->count = $count;
+
+        return $this;
     }
 
     /**
@@ -119,10 +135,14 @@ class ImHistoryPayload extends AbstractPayload
 
     /**
      * @param bool $inclusive
+     *
+     * @return ImHistoryPayload
      */
     public function setInclusive($inclusive)
     {
         $this->inclusive = $inclusive;
+
+        return $this;
     }
 
     /**

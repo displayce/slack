@@ -30,10 +30,14 @@ class ChannelsKickPayload extends AbstractPayload
 
     /**
      * @param string $channelId ID of the channel to remove user from
+     *
+     * @return ChannelsKickPayload
      */
     public function setChannelId($channelId)
     {
         $this->channel = $channelId;
+
+        return $this;
     }
 
     /**
@@ -46,10 +50,14 @@ class ChannelsKickPayload extends AbstractPayload
 
     /**
      * @param string $userId ID of the user to remove from channel
+     *
+     * @return ChannelsKickPayload
      */
     public function setUserId($userId)
     {
         $this->user = $userId;
+
+        return $this;
     }
 
     /**

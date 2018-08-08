@@ -28,10 +28,14 @@ class GroupsClosePayload extends AbstractPayload
 
     /**
      * @param string $groupId
+     *
+     * @return GroupsClosePayload
      */
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**

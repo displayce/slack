@@ -25,10 +25,14 @@ class ChannelsInfoPayload extends AbstractPayload
 
     /**
      * @param string $channelId
+     *
+     * @return ChannelsInfoPayload
      */
     public function setChannelId($channelId)
     {
         $this->channel = $channelId;
+
+        return $this;
     }
 
     /**

@@ -28,10 +28,14 @@ class GroupsCreateChildPayload extends AbstractPayload
 
     /**
      * @param string $groupId ID of the group to clone and archive.
+     *
+     * @return GroupsCreateChildPayload
      */
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**

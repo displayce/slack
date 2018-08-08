@@ -25,10 +25,14 @@ class ImOpenPayload extends AbstractPayload
 
     /**
      * @param string $userId ID of the user to open a direct message channel with
+     *
+     * @return ImOpenPayload
      */
     public function setUserId($userId)
     {
         $this->user = $userId;
+
+        return $this;
     }
 
     /**

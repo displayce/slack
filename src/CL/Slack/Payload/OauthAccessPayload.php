@@ -40,10 +40,14 @@ class OauthAccessPayload extends AbstractPayload
 
     /**
      * @param string $clientId
+     *
+     * @return OauthAccessPayload
      */
     public function setClientId($clientId)
     {
         $this->clientId = $clientId;
+
+        return $this;
     }
 
     /**
@@ -56,10 +60,14 @@ class OauthAccessPayload extends AbstractPayload
 
     /**
      * @param string $clientSecret
+     *
+     * @return OauthAccessPayload
      */
     public function setClientSecret($clientSecret)
     {
         $this->clientSecret = $clientSecret;
+
+        return $this;
     }
 
     /**
@@ -72,10 +80,14 @@ class OauthAccessPayload extends AbstractPayload
 
     /**
      * @param string $code
+     *
+     * @return OauthAccessPayload
      */
     public function setCode($code)
     {
         $this->code = $code;
+
+        return $this;
     }
 
     /**
@@ -88,10 +100,14 @@ class OauthAccessPayload extends AbstractPayload
 
     /**
      * @param string $redirectUri
+     *
+     * @return OauthAccessPayload
      */
     public function setRedirectUri($redirectUri)
     {
         $this->redirectUri = $redirectUri;
+
+        return $this;
     }
 
     /**

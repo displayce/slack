@@ -30,10 +30,14 @@ class ChannelsRenamePayload extends AbstractPayload
 
     /**
      * @param string $channel ID of the channel to rename
+     *
+     * @return ChannelsRenamePayload
      */
     public function setChannelId($channel)
     {
         $this->channel = $channel;
+
+        return $this;
     }
 
     /**
@@ -46,10 +50,14 @@ class ChannelsRenamePayload extends AbstractPayload
 
     /**
      * @param string $name New name for channel.
+     *
+     * @return ChannelsRenamePayload
      */
     public function setName($name)
     {
         $this->name = $name;
+
+        return $this;
     }
 
     /**

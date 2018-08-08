@@ -25,10 +25,14 @@ class GroupsCreatePayload extends AbstractPayload
 
     /**
      * @param string $name Name of group to create
+     *
+     * @return GroupsCreatePayload
      */
     public function setName($name)
     {
         $this->name = $name;
+
+        return $this;
     }
 
     /**

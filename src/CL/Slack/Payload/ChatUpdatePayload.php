@@ -45,10 +45,14 @@ class ChatUpdatePayload extends AbstractPayload
 
     /**
      * @param string $channelId
+     *
+     * @return ChatUpdatePayload
      */
     public function setChannelId($channelId)
     {
         $this->channel = $channelId;
+
+        return $this;
     }
 
     /**
@@ -61,10 +65,14 @@ class ChatUpdatePayload extends AbstractPayload
 
     /**
      * @param string $timestamp
+     *
+     * @return ChatUpdatePayload
      */
     public function setSlackTimestamp($timestamp)
     {
         $this->ts = $timestamp;
+
+        return $this;
     }
 
     /**
@@ -77,10 +85,14 @@ class ChatUpdatePayload extends AbstractPayload
 
     /**
      * @param string $text
+     *
+     * @return ChatUpdatePayload
      */
     public function setText($text)
     {
         $this->text = $text;
+
+        return $this;
     }
 
     /**
@@ -95,10 +107,14 @@ class ChatUpdatePayload extends AbstractPayload
      * @deprecated Will be removed soon, use `setText()` instead
      *
      * @param string $message
+     *
+     * @return ChatUpdatePayload
      */
     public function setMessage($message)
     {
         $this->setText($message);
+
+        return $this;
     }
 
     /**
@@ -115,10 +131,14 @@ class ChatUpdatePayload extends AbstractPayload
      * @param string $parse Change how messages are treated.
      *
      * @see https://api.slack.com/docs/formatting
+     *
+     * @return ChatUpdatePayload
      */
     public function setParse($parse)
     {
         $this->parse = $parse;
+
+        return $this;
     }
 
     /**
@@ -131,10 +151,14 @@ class ChatUpdatePayload extends AbstractPayload
 
     /**
      * @param bool $linkNames Set to true to automatically find and link channel names and usernames in the message.
+     *
+     * @return ChatUpdatePayload
      */
     public function setLinkNames($linkNames)
     {
         $this->linkNames = $linkNames;
+
+        return $this;
     }
 
     /**

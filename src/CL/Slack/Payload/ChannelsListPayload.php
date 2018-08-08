@@ -33,10 +33,14 @@ class ChannelsListPayload extends AbstractPayload
 
     /**
      * @param bool $excludeArchived
+     *
+     * @return ChannelsListPayload
      */
     public function setExcludeArchived($excludeArchived)
     {
         $this->excludeArchived = $excludeArchived;
+
+        return $this;
     }
 
     /**

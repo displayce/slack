@@ -32,11 +32,15 @@ class UsersAdminInvitePayload extends AbstractPayload
     }
 
     /**
-     * @param string $email
+     * @param $email
+     *
+     * @return UsersAdminInvitePayload
      */
     public function setEmail($email)
     {
         $this->email = $email;
+
+        return $this;
     }
 
     /**

@@ -25,10 +25,14 @@ class ChannelsJoinPayload extends AbstractPayload
 
     /**
      * @param string $channel
+     *
+     * @return ChannelsJoinPayload
      */
     public function setName($channel)
     {
         $this->name = $channel;
+
+        return $this;
     }
 
     /**

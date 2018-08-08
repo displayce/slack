@@ -41,10 +41,14 @@ class ApiTestPayload extends AbstractPayload
     /**
      * @param string $key
      * @param mixed  $value
+     *
+     * @return ApiTestPayload
      */
     public function addArgument($key, $value)
     {
         $this->args[$key] = $value;
+
+        return $this;
     }
 
     /**
@@ -71,10 +75,14 @@ class ApiTestPayload extends AbstractPayload
 
     /**
      * @param string|null $error Error response to return
+     *
+     * @return ApiTestPayload
      */
     public function setError($error)
     {
         $this->error = $error;
+
+        return $this;
     }
 
     /**

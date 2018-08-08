@@ -33,10 +33,14 @@ class ImMarkPayload extends AbstractPayload
 
     /**
      * @param string $imId ID of the IM channel to set reading cursor in.
+     *
+     * @return ImMarkPayload
      */
     public function setImId($imId)
     {
         $this->channel = $imId;
+
+        return $this;
     }
 
     /**
@@ -49,10 +53,14 @@ class ImMarkPayload extends AbstractPayload
 
     /**
      * @param string $timestamp
+     *
+     * @return ImMarkPayload
      */
     public function setSlackTimestamp($timestamp)
     {
         $this->ts = $timestamp;
+
+        return $this;
     }
 
     /**

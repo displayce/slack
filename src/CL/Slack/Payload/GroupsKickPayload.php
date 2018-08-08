@@ -33,10 +33,14 @@ class GroupsKickPayload extends AbstractPayload
 
     /**
      * @param string $groupId ID of the group to kick the user from
+     *
+     * @return GroupsKickPayload
      */
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**
@@ -49,10 +53,14 @@ class GroupsKickPayload extends AbstractPayload
 
     /**
      * @param string $userId ID of the user to kick from group
+     *
+     * @return GroupsKickPayload
      */
     public function setUserId($userId)
     {
         $this->user = $userId;
+
+        return $this;
     }
 
     /**

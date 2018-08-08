@@ -28,10 +28,14 @@ class ImClosePayload extends AbstractPayload
 
     /**
      * @param string $imId
+     *
+     * @return ImClosePayload
      */
     public function setImId($imId)
     {
         $this->channel = $imId;
+
+        return $this;
     }
 
     /**

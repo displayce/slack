@@ -37,10 +37,14 @@ class StarsListPayload extends AbstractPayload
      * Show stars by this user. Defaults to the authenticated user.
      *
      * @param string $userId
+     *
+     * @return StarsListPayload
      */
     public function setUserId($userId)
     {
         $this->user = $userId;
+
+        return $this;
     }
 
     /**
@@ -55,10 +59,14 @@ class StarsListPayload extends AbstractPayload
 
     /**
      * @param int $count Number of items to return per page.
+     *
+     * @return StarsListPayload
      */
     public function setCount($count)
     {
         $this->count = $count;
+
+        return $this;
     }
 
     /**
@@ -71,10 +79,14 @@ class StarsListPayload extends AbstractPayload
 
     /**
      * @param int $page Page number of results to return.
+     *
+     * @return StarsListPayload
      */
     public function setPage($page)
     {
         $this->page = $page;
+
+        return $this;
     }
 
     /**

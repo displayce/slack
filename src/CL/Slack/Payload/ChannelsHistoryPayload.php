@@ -48,10 +48,14 @@ class ChannelsHistoryPayload extends AbstractPayload
 
     /**
      * @param string $channelId
+     *
+     * @return ChannelsHistoryPayload
      */
     public function setChannelId($channelId)
     {
         $this->channel = $channelId;
+
+        return $this;
     }
 
     /**
@@ -64,10 +68,14 @@ class ChannelsHistoryPayload extends AbstractPayload
 
     /**
      * @param string|string|null $latest
+     *
+     * @return ChannelsHistoryPayload
      */
     public function setLatest($latest = null)
     {
         $this->latest = $latest;
+
+        return $this;
     }
 
     /**
@@ -80,10 +88,14 @@ class ChannelsHistoryPayload extends AbstractPayload
 
     /**
      * @param string|null $oldest
+     *
+     * @return ChannelsHistoryPayload
      */
     public function setOldest($oldest = null)
     {
         $this->oldest = $oldest;
+
+        return $this;
     }
 
     /**
@@ -96,10 +108,14 @@ class ChannelsHistoryPayload extends AbstractPayload
 
     /**
      * @param int|null $count
+     *
+     * @return ChannelsHistoryPayload
      */
     public function setCount($count = null)
     {
         $this->count = $count;
+
+        return $this;
     }
 
     /**
@@ -112,10 +128,14 @@ class ChannelsHistoryPayload extends AbstractPayload
 
     /**
      * @param bool $inclusive
+     *
+     * @return ChannelsHistoryPayload
      */
     public function setInclusive($inclusive)
     {
         $this->inclusive = $inclusive;
+
+        return $this;
     }
 
     /**

@@ -30,10 +30,14 @@ class ChatDeletePayload extends AbstractPayload
 
     /**
      * @param string $channelId
+     *
+     * @return ChatDeletePayload
      */
     public function setChannelId($channelId)
     {
         $this->channel = $channelId;
+
+        return $this;
     }
 
     /**
@@ -46,10 +50,14 @@ class ChatDeletePayload extends AbstractPayload
 
     /**
      * @param string $timestamp
+     *
+     * @return ChatDeletePayload
      */
     public function setSlackTimestamp($timestamp)
     {
         $this->ts = $timestamp;
+
+        return $this;
     }
 
     /**

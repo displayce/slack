@@ -30,10 +30,14 @@ class ChannelsSetPurposePayload extends AbstractPayload
 
     /**
      * @param string $channelId ID of the channel to remove user from
+     *
+     * @return ChannelsSetPurposePayload
      */
     public function setChannelId($channelId)
     {
         $this->channel = $channelId;
+
+        return $this;
     }
 
     /**
@@ -46,10 +50,14 @@ class ChannelsSetPurposePayload extends AbstractPayload
 
     /**
      * @param string $purpose
+     *
+     * @return ChannelsSetPurposePayload
      */
     public function setPurpose($purpose)
     {
         $this->purpose = $purpose;
+
+        return $this;
     }
 
     /**

@@ -30,10 +30,14 @@ class GroupsSetPurposePayload extends AbstractPayload
 
     /**
      * @param string $groupId ID of the group to remove user from
+     *
+     * @return GroupsSetPurposePayload
      */
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**
@@ -46,10 +50,14 @@ class GroupsSetPurposePayload extends AbstractPayload
 
     /**
      * @param string $purpose
+     *
+     * @return GroupsSetPurposePayload
      */
     public function setPurpose($purpose)
     {
         $this->purpose = $purpose;
+
+        return $this;
     }
 
     /**

@@ -25,10 +25,14 @@ class UsersListPayload extends AbstractPayload
 
     /**
      * @param bool $presence Whether to include presence data in the output
+     *
+     * @return UsersListPayload
      */
     public function setPresence($presence)
     {
         $this->presence = $presence;
+
+        return $this;
     }
 
     /**

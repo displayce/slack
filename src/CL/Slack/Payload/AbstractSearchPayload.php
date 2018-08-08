@@ -48,10 +48,14 @@ abstract class AbstractSearchPayload extends AbstractPayload
 
     /**
      * @param string $query
+     *
+     * @return AbstractSearchPayload
      */
     public function setQuery($query)
     {
         $this->query = $query;
+
+        return $this;
     }
 
     /**
@@ -64,10 +68,14 @@ abstract class AbstractSearchPayload extends AbstractPayload
 
     /**
      * @param int $count
+     *
+     * @return AbstractSearchPayload
      */
     public function setCount($count)
     {
         $this->count = $count;
+
+        return $this;
     }
 
     /**
@@ -80,10 +88,14 @@ abstract class AbstractSearchPayload extends AbstractPayload
 
     /**
      * @param bool $highlight
+     *
+     * @return AbstractSearchPayload
      */
     public function setHighlight($highlight)
     {
         $this->highlight = $highlight;
+
+        return $this;
     }
 
     /**
@@ -96,10 +108,14 @@ abstract class AbstractSearchPayload extends AbstractPayload
 
     /**
      * @param int $page
+     *
+     * @return AbstractSearchPayload
      */
     public function setPage($page)
     {
         $this->page = $page;
+
+        return $this;
     }
 
     /**
@@ -112,10 +128,14 @@ abstract class AbstractSearchPayload extends AbstractPayload
 
     /**
      * @param string $sort
+     *
+     * @return AbstractSearchPayload
      */
     public function setSort($sort)
     {
         $this->sort = $sort;
+
+        return $this;
     }
 
     /**
@@ -128,10 +148,14 @@ abstract class AbstractSearchPayload extends AbstractPayload
 
     /**
      * @param string $sortDir
+     *
+     * @return AbstractSearchPayload
      */
     public function setSortDir($sortDir)
     {
         $this->sortDir = $sortDir;
+
+        return $this;
     }
 
     /**

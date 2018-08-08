@@ -33,10 +33,14 @@ class GroupsRenamePayload extends AbstractPayload
 
     /**
      * @param string $groupId ID of the group to rename
+     *
+     * @return GroupsRenamePayload
      */
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**
@@ -49,10 +53,14 @@ class GroupsRenamePayload extends AbstractPayload
 
     /**
      * @param string $name New name for group
+     *
+     * @return GroupsRenamePayload
      */
     public function setName($name)
     {
         $this->name = $name;
+
+        return $this;
     }
 
     /**

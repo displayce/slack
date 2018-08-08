@@ -30,10 +30,14 @@ class ChannelsInvitePayload extends AbstractPayload
 
     /**
      * @param string $channelId
+     *
+     * @return ChannelsInvitePayload
      */
     public function setChannelId($channelId)
     {
         $this->channel = $channelId;
+
+        return $this;
     }
 
     /**
@@ -46,10 +50,14 @@ class ChannelsInvitePayload extends AbstractPayload
 
     /**
      * @param string $userId
+     *
+     * @return ChannelsInvitePayload
      */
     public function setUserId($userId)
     {
         $this->user = $userId;
+
+        return $this;
     }
 
     /**

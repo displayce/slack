@@ -25,10 +25,14 @@ class ImListPayload extends AbstractPayload
 
     /**
      * @param bool $excludeArchived
+     *
+     * @return ImListPayload
      */
     public function setExcludeArchived($excludeArchived)
     {
         $this->excludeArchived = $excludeArchived;
+
+        return $this;
     }
 
     /**

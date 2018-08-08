@@ -33,10 +33,14 @@ class GroupsMarkPayload extends AbstractPayload
 
     /**
      * @param string $groupId ID of the group to set reading cursor in.
+     *
+     * @return GroupsMarkPayload
      */
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**
@@ -49,10 +53,14 @@ class GroupsMarkPayload extends AbstractPayload
 
     /**
      * @param string $timestamp
+     *
+     * @return GroupsMarkPayload
      */
     public function setSlackTimestamp($timestamp)
     {
         $this->ts = $timestamp;
+
+        return $this;
     }
 
     /**

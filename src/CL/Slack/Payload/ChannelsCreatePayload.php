@@ -27,10 +27,14 @@ class ChannelsCreatePayload extends AbstractPayload
 
     /**
      * @param string $name Name of channel to create
+     *
+     * @return ChannelsCreatePayload
      */
     public function setName($name)
     {
         $this->name = $name;
+
+        return $this;
     }
 
     /**

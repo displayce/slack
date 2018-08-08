@@ -25,10 +25,14 @@ class GroupsListPayload extends AbstractPayload
 
     /**
      * @param bool $excludeArchived
+     *
+     * @return GroupsListPayload
      */
     public function setExcludeArchived($excludeArchived)
     {
         $this->excludeArchived = $excludeArchived;
+
+        return $this;
     }
 
     /**

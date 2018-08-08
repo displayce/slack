@@ -30,6 +30,8 @@ class GroupsSetTopicPayload extends AbstractPayload
 
     /**
      * @param string $groupId ID of the group to remove user from
+     *
+     * @return GroupsSetTopicPayload
      */
     public function setGroupId($groupId)
     {
@@ -46,6 +48,8 @@ class GroupsSetTopicPayload extends AbstractPayload
 
     /**
      * @param string $topic
+     *
+     * @return GroupsSetTopicPayload
      */
     public function setTopic($topic)
     {

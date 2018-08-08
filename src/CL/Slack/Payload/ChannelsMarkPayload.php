@@ -30,10 +30,14 @@ class ChannelsMarkPayload extends AbstractPayload
 
     /**
      * @param string $channelId ID of the channel to remove user from
+     *
+     * @return ChannelsMarkPayload
      */
     public function setChannelId($channelId)
     {
         $this->channel = $channelId;
+
+        return $this;
     }
 
     /**
@@ -46,10 +50,14 @@ class ChannelsMarkPayload extends AbstractPayload
 
     /**
      * @param string $timestamp
+     *
+     * @return ChannelsMarkPayload
      */
     public function setSlackTimestamp($timestamp)
     {
         $this->ts = $timestamp;
+
+        return $this;
     }
 
     /**

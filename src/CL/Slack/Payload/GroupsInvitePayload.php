@@ -33,10 +33,14 @@ class GroupsInvitePayload extends AbstractPayload
 
     /**
      * @param string $groupId ID of the group to invite the user into
+     *
+     * @return GroupsInvitePayload
      */
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**
@@ -49,10 +53,14 @@ class GroupsInvitePayload extends AbstractPayload
 
     /**
      * @param string $userId ID of the user to invite.
+     *
+     * @return GroupsInvitePayload
      */
     public function setUserId($userId)
     {
         $this->user = $userId;
+
+        return $this;
     }
 
     /**

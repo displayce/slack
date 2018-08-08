@@ -25,10 +25,14 @@ class GroupsInfoPayload extends AbstractPayload
 
     /**
      * @param string $channelId
+     *
+     * @return GroupsInfoPayload
      */
     public function setGroupId($channelId)
     {
         $this->channel = $channelId;
+
+        return $this;
     }
 
     /**

@@ -93,7 +93,7 @@ class User extends AbstractModel
     }
 
     /**
-     * @return MemberProfile The profile object for this member
+     * @return UserProfile The profile object for this member
      */
     public function getProfile()
     {

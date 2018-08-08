@@ -25,10 +25,14 @@ class ChannelsLeavePayload extends AbstractPayload
 
     /**
      * @param string $channelId ID of the channel to remove user from
+     *
+     * @return ChannelsLeavePayload
      */
     public function setChannelId($channelId)
     {
         $this->channel = $channelId;
+
+        return $this;
     }
 
     /**

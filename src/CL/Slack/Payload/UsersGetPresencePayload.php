@@ -24,11 +24,15 @@ class UsersGetPresencePayload extends AbstractPayload
     private $user;
 
     /**
-     * @param string $user ID of the user
+     * @param $user ID of the user
+     *
+     * @return UsersGetPresencePayload
      */
     public function setUserId($user)
     {
         $this->user = $user;
+
+        return $this;
     }
 
     /**
