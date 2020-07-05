@@ -27,6 +27,8 @@ use Psr\Http\Message\ResponseInterface;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
+define('LEGACY_DISPATCH', (new \ReflectionClass(EventDispatcher::class))->getMethod('dispatch')->getParameters()[0]->getName() === 'eventName');
+
 /**
  * @author Cas Leentfaar <info@casleentfaar.com>
  */
@@ -147,7 +149,11 @@ class ApiClient implements ApiClientInterface
         try {
             $data['token'] = $token ?: $this->token;
 
-            $this->eventDispatcher->dispatch(self::EVENT_REQUEST, new RequestEvent($data));
+            if (LEGACY_DISPATCH) {
+                $this->eventDispatcher->dispatch(self::EVENT_REQUEST, new RequestEvent($data));
+            } else {
+                $this->eventDispatcher->dispatch(new RequestEvent($data), self::EVENT_REQUEST);
+            }
 
             $request = $this->createRequest($method, $data);
 
