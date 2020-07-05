@@ -172,7 +172,11 @@ class ApiClient implements ApiClientInterface
                 ));
             }
 
-            $this->eventDispatcher->dispatch(self::EVENT_RESPONSE, new ResponseEvent($responseData));
+            if (LEGACY_DISPATCH) {
+                $this->eventDispatcher->dispatch(self::EVENT_RESPONSE, new ResponseEvent($responseData));
+            } else {
+                $this->eventDispatcher->dispatch(new ResponseEvent($responseData), self::EVENT_RESPONSE);
+            }
 
             return $responseData;
         } catch (\Exception $e) {
