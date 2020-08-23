@@ -36,6 +36,8 @@ class GroupsSetTopicPayload extends AbstractPayload
     public function setGroupId($groupId)
     {
         $this->channel = $groupId;
+
+        return $this;
     }
 
     /**
@@ -54,6 +56,8 @@ class GroupsSetTopicPayload extends AbstractPayload
     public function setTopic($topic)
     {
         $this->topic = $topic;
+
+        return $this;
     }
 
     /**
