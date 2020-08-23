@@ -5,8 +5,8 @@ This method is used to change the topic of a channel. The calling user must be a
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.setTopic                                                                                               |
-| `Payload` class         | [ChannelsSetTopicPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsSetTopicPayload.php)                 |
-| `PayloadResponse` class | [ChannelsSetTopicPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsSetTopicPayloadResponse.php) |
+| `Payload` class         | [ChannelsSetTopicPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsSetTopicPayload.php)                 |
+| `PayloadResponse` class | [ChannelsSetTopicPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsSetTopicPayloadResponse.php) |
 
 
 ### Usage

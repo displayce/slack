@@ -5,8 +5,8 @@ Archives a group.
 | | |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/groups.archive                                                                                          |
-| `Payload` class         | [GroupsArchivePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/GroupsArchivePayload.php)                 |
-| `PayloadResponse` class | [GroupsArchivePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/GroupsArchivePayloadResponse.php) |
+| `Payload` class         | [GroupsArchivePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/GroupsArchivePayload.php)                 |
+| `PayloadResponse` class | [GroupsArchivePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/GroupsArchivePayloadResponse.php) |
 
 
 ### Usage

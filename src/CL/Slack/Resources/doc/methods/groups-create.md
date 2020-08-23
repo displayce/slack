@@ -5,8 +5,8 @@ Creates a new group.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/groups.create                                                                                             |
-| `Payload` class         | [GroupsCreatePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/GroupsCreatePayload.php)                   |
-| `PayloadResponse` class | [GroupsCreatePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/GroupsCreatePayloadResponse.php)   |
+| `Payload` class         | [GroupsCreatePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/GroupsCreatePayload.php)                   |
+| `PayloadResponse` class | [GroupsCreatePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/GroupsCreatePayloadResponse.php)   |
 
 
 ### Usage

@@ -5,8 +5,8 @@ This method moves the read cursor in a channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.rename                                                                                             |
-| `Payload` class         | [ChannelsRenamePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsRenamePayload.php)                   |
-| `PayloadResponse` class | [ChannelsRenamePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsRenamePayloadResponse.php)   |
+| `Payload` class         | [ChannelsRenamePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsRenamePayload.php)                   |
+| `PayloadResponse` class | [ChannelsRenamePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsRenamePayloadResponse.php)   |
 
 
 ### Usage

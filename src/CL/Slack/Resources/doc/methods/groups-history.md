@@ -7,8 +7,8 @@ official documentation (link below).
 | | |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/groups.history                                                                                          |
-| `Payload` class         | [GroupsHistoryPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/GroupsHistoryPayload.php)                 |
-| `PayloadResponse` class | [GroupsHistoryPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/GroupsHistoryPayloadResponse.php) |
+| `Payload` class         | [GroupsHistoryPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/GroupsHistoryPayload.php)                 |
+| `PayloadResponse` class | [GroupsHistoryPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/GroupsHistoryPayloadResponse.php) |
 
 
 ### Usage

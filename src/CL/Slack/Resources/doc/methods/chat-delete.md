@@ -5,8 +5,8 @@ This method deletes a message from a channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/chat.delete                                                                                                 |
-| `Payload` class         | [ChatDeletePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChatDeletePayload.php)                           |
-| `PayloadResponse` class | [ChatDeletePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChatDeletePayloadResponse.php)           |
+| `Payload` class         | [ChatDeletePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChatDeletePayload.php)                           |
+| `PayloadResponse` class | [ChatDeletePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChatDeletePayloadResponse.php)           |
 
 
 ### Usage

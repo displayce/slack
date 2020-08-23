@@ -5,8 +5,8 @@ This method is used to get the info for a team.
 | | |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/team.info                                                                                         |
-| `Payload` class         | [TeamInfoPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/TeamInfoPayload.php)                     |
-| `PayloadResponse` class | [TeamInfoPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/TeamInfoPayloadResponse.php)     |
+| `Payload` class         | [TeamInfoPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/TeamInfoPayload.php)                     |
+| `PayloadResponse` class | [TeamInfoPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/TeamInfoPayloadResponse.php)     |
 
 
 ### Usage

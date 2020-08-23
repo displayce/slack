@@ -5,8 +5,8 @@ Invites a user to a channel. The token's user must be a member of the channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.invite                                                                                             |
-| `Payload` class         | [ChannelsInvitePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsInvitePayload.php)                   |
-| `PayloadResponse` class | [ChannelsInvitePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsInvitePayloadResponse.php)   |
+| `Payload` class         | [ChannelsInvitePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsInvitePayload.php)                   |
+| `PayloadResponse` class | [ChannelsInvitePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsInvitePayloadResponse.php)   |
 
 
 ### Usage

@@ -5,8 +5,8 @@ This method posts a message to a channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/chat.postMessage                                                                                            |
-| `Payload` class         | [ChannelsArchivePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChatPostMessagePayload.php)                 |
-| `PayloadResponse` class | [ChannelsArchivePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChatPostMessagePayloadResponse.php) |
+| `Payload` class         | [ChannelsArchivePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChatPostMessagePayload.php)                 |
+| `PayloadResponse` class | [ChannelsArchivePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChatPostMessagePayloadResponse.php) |
 
 
 ### Usage

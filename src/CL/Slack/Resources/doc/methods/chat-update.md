@@ -5,8 +5,8 @@ This method updates a message in a channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/chat.update                                                                                                 |
-| `Payload` class         | [ChatUpdatePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChatUpdatePayload.php)                           |
-| `PayloadResponse` class | [ChatUpdatePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChatUpdatePayloadResponse.php)           |
+| `Payload` class         | [ChatUpdatePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChatUpdatePayload.php)                           |
+| `PayloadResponse` class | [ChatUpdatePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChatUpdatePayloadResponse.php)           |
 
 
 ### Usage

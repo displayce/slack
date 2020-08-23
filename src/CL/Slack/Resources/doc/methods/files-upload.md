@@ -5,8 +5,8 @@ This method allows you to create or upload an existing file.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/files.upload                                                                                          |
-| `Payload` class         | [FilesUploadPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/FilesUploadPayload.php)                       |
-| `PayloadResponse` class | [FilesUploadPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/FilesUploadPayloadResponse.php)       |
+| `Payload` class         | [FilesUploadPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/FilesUploadPayload.php)                       |
+| `PayloadResponse` class | [FilesUploadPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/FilesUploadPayloadResponse.php)       |
 
 
 ### Usage

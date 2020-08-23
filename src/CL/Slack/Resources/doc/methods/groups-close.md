@@ -5,8 +5,8 @@ Closes a group.
 | | |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/groups.close                                                                                        |
-| `Payload` class         | [GroupsClosePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/GroupsClosePayload.php)                 |
-| `PayloadResponse` class | [GroupsClosePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/GroupsClosePayloadResponse.php) |
+| `Payload` class         | [GroupsClosePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/GroupsClosePayload.php)                 |
+| `PayloadResponse` class | [GroupsClosePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/GroupsClosePayloadResponse.php) |
 
 
 ### Usage

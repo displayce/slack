@@ -5,8 +5,8 @@ Joins a user to a channel. The token's user must be a member of the channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.join                                                                                               |
-| `Payload` class         | [ChannelsJoinPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsJoinPayload.php)                       |
-| `PayloadResponse` class | [ChannelsJoinPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsJoinPayloadResponse.php)       |
+| `Payload` class         | [ChannelsJoinPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsJoinPayload.php)                       |
+| `PayloadResponse` class | [ChannelsJoinPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsJoinPayloadResponse.php)       |
 
 
 ### Usage

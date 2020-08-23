@@ -5,8 +5,8 @@ Unarchives a channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.unarchive                                                                                            |
-| `Payload` class         | [ChannelsUnarchivePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsUnarchivePayload.php)                 |
-| `PayloadResponse` class | [ChannelsUnarchivePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsUnarchivePayloadResponse.php) |
+| `Payload` class         | [ChannelsUnarchivePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsUnarchivePayload.php)                 |
+| `PayloadResponse` class | [ChannelsUnarchivePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsUnarchivePayloadResponse.php) |
 
 
 ### Usage

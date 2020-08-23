@@ -7,8 +7,8 @@ official documentation (link below).
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.history                                                                                            |
-| `Payload` class         | [ChannelsHistoryPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsHistoryPayload.php)                 |
-| `PayloadResponse` class | [ChannelsHistoryPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsHistoryPayloadResponse.php) |
+| `Payload` class         | [ChannelsHistoryPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsHistoryPayload.php)                 |
+| `PayloadResponse` class | [ChannelsHistoryPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsHistoryPayloadResponse.php) |
 
 
 ### Usage

@@ -5,8 +5,8 @@ This method moves the read cursor in a channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.mark                                                                                               |
-| `Payload` class         | [ChannelsMarkPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsMarkPayload.php)                       |
-| `PayloadResponse` class | [ChannelsMarkPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsMarkPayloadResponse.php)       |
+| `Payload` class         | [ChannelsMarkPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsMarkPayload.php)                       |
+| `PayloadResponse` class | [ChannelsMarkPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsMarkPayloadResponse.php)       |
 
 
 ### Usage

@@ -5,8 +5,8 @@ This method updates a message in a channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/search.all                                                                                                  |
-| `Payload` class         | [SearchAllPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/SearchAllPayload.php)                             |
-| `PayloadResponse` class | [SearchAllPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/SearchAllPayloadResponse.php)             |
+| `Payload` class         | [SearchAllPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/SearchAllPayload.php)                             |
+| `PayloadResponse` class | [SearchAllPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/SearchAllPayloadResponse.php)             |
 
 
 ### Usage

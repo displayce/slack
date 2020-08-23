@@ -5,8 +5,8 @@ This method allows a user to remove another member from a team channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.kick                                                                                               |
-| `Payload` class         | [ChannelsKickPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsKickPayload.php)                       |
-| `PayloadResponse` class | [ChannelsKickPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsKickPayloadResponse.php)       |
+| `Payload` class         | [ChannelsKickPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsKickPayload.php)                       |
+| `PayloadResponse` class | [ChannelsKickPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsKickPayloadResponse.php)       |
 
 
 ### Usage

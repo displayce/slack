@@ -5,8 +5,8 @@ This method returns information about a file in your team.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/files.info                                                                                      |
-| `Payload` class         | [FilesInfoPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/FilesInfoPayload.php)                 |
-| `PayloadResponse` class | [FilesInfoPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/FilesInfoPayloadResponse.php) |
+| `Payload` class         | [FilesInfoPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/FilesInfoPayload.php)                 |
+| `PayloadResponse` class | [FilesInfoPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/FilesInfoPayloadResponse.php) |
 
 
 ### Usage

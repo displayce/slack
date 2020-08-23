@@ -5,8 +5,8 @@ Returns a list of all users in the team. This includes deleted/deactivated users
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/users.list                                                                                                  |
-| `Payload` class         | [UsersListPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/UsersListPayload.php)                             |
-| `PayloadResponse` class | [UsersListPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/UsersListPayloadResponse.php)             |
+| `Payload` class         | [UsersListPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/UsersListPayload.php)                             |
+| `PayloadResponse` class | [UsersListPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/UsersListPayloadResponse.php)             |
 
 
 ### Usage

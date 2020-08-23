@@ -25,4 +25,4 @@ $apiClient->send($payload); // will trigger both events sequentially
 
 ```
 
-This example is taken from the [Slack CLI](https://github.com/cleentfaar/slack-cli/blob/master/src/CL/SlackCli/Command/AbstractApiCommand.php#L266) package.
+This example is taken from the [Slack CLI](https://github.com/displayce/slack-cli/blob/master/src/CL/SlackCli/Command/AbstractApiCommand.php#L266) package.

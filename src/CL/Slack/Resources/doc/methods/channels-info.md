@@ -5,8 +5,8 @@ Returns information about a team channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.info                                                                                               |
-| `Payload` class         | [ChannelsInfoPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsInfoPayload.php)                       |
-| `PayloadResponse` class | [ChannelsInfoPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsInfoPayloadResponse.php)       |
+| `Payload` class         | [ChannelsInfoPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsInfoPayload.php)                       |
+| `PayloadResponse` class | [ChannelsInfoPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsInfoPayloadResponse.php)       |
 
 
 ### Usage

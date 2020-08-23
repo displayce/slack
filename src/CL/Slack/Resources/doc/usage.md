@@ -63,4 +63,4 @@ errors below.
 
 ## Next chapter
 
-In the next chapter, I show you an example of using the events made available by this package: [Events](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Resources/doc/events.md)
+In the next chapter, I show you an example of using the events made available by this package: [Events](https://github.com/displayce/slack/blob/master/src/CL/Slack/Resources/doc/events.md)

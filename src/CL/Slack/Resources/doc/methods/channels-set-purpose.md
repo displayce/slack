@@ -5,8 +5,8 @@ This method is used to change the purpose of a channel. The calling user must be
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.setPurpose                                                                                               |
-| `Payload` class         | [ChannelsSetPurposePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsSetPurposePayload.php)                 |
-| `PayloadResponse` class | [ChannelsSetPurposePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsSetPurposePayloadResponse.php) |
+| `Payload` class         | [ChannelsSetPurposePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsSetPurposePayload.php)                 |
+| `PayloadResponse` class | [ChannelsSetPurposePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsSetPurposePayloadResponse.php) |
 
 
 ### Usage

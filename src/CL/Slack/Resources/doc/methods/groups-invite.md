@@ -5,8 +5,8 @@ Invites a user to a group. The token's user must be a member of the group.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/groups.invite                                                                                             |
-| `Payload` class         | [GroupsInvitePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/GroupsInvitePayload.php)                   |
-| `PayloadResponse` class | [GroupsInvitePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/GroupsInvitePayloadResponse.php)   |
+| `Payload` class         | [GroupsInvitePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/GroupsInvitePayload.php)                   |
+| `PayloadResponse` class | [GroupsInvitePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/GroupsInvitePayloadResponse.php)   |
 
 
 ### Usage

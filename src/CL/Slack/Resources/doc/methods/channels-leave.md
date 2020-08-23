@@ -5,8 +5,8 @@ This method is used to leave a channel.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.leave                                                                                              |
-| `Payload` class         | [ChannelsLeavePayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsLeavePayload.php)                     |
-| `PayloadResponse` class | [ChannelsLeavePayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsLeavePayloadResponse.php)     |
+| `Payload` class         | [ChannelsLeavePayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsLeavePayload.php)                     |
+| `PayloadResponse` class | [ChannelsLeavePayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsLeavePayloadResponse.php)     |
 
 
 ### Usage

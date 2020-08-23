@@ -5,8 +5,8 @@ This method is used to list files in your team.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/files.list                                                                                      |
-| `Payload` class         | [FilesListPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/FilesListPayload.php)                 |
-| `PayloadResponse` class | [FilesListPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/FilesListPayloadResponse.php) |
+| `Payload` class         | [FilesListPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/FilesListPayload.php)                 |
+| `PayloadResponse` class | [FilesListPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/FilesListPayloadResponse.php) |
 
 
 ### Usage

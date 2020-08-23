@@ -5,8 +5,8 @@ This method lists the custom emoji for a team.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/emoji.list                                                                                      |
-| `Payload` class         | [EmojiListPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/EmojiListPayload.php)                 |
-| `PayloadResponse` class | [EmojiListPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/EmojiListPayloadResponse.php) |
+| `Payload` class         | [EmojiListPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/EmojiListPayload.php)                 |
+| `PayloadResponse` class | [EmojiListPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/EmojiListPayloadResponse.php) |
 
 
 ### Usage

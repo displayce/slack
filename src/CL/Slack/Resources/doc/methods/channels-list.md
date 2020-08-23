@@ -5,8 +5,8 @@ This method is used to list the channels in your team.
 | | |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Official documentation  | https://api.slack.com/methods/channels.list                                                                                              |
-| `Payload` class         | [ChannelsListPayload](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsListPayload.php)                     |
-| `PayloadResponse` class | [ChannelsListPayloadResponse](https://github.com/cleentfaar/slack/blob/master/src/CL/Slack/Payload/ChannelsListPayloadResponse.php)     |
+| `Payload` class         | [ChannelsListPayload](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsListPayload.php)                     |
+| `PayloadResponse` class | [ChannelsListPayloadResponse](https://github.com/displayce/slack/blob/master/src/CL/Slack/Payload/ChannelsListPayloadResponse.php)     |
 
 
 ### Usage
