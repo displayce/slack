@@ -14,10 +14,12 @@ namespace CL\Slack\Transport\Events;
 use Symfony\Component\EventDispatcher\Event as ComponentEvent;
 use Symfony\Contracts\EventDispatcher\Event as ContractsEvent;
 
-if (class_exists(ContractsEvent::class)) {
-    class_alias(ContractsEvent::class, __NAMESPACE__ . '\\Event');
-} else {
-    class_alias(ComponentEvent::class, __NAMESPACE__ . '\\Event');
+if (!class_exists(__NAMESPACE__ . '\\Event')) {
+    if (class_exists(ContractsEvent::class)) {
+        class_alias(ContractsEvent::class, __NAMESPACE__ . '\\Event');
+    } else {
+        class_alias(ComponentEvent::class, __NAMESPACE__ . '\\Event');
+    }
 }
 
 /**
