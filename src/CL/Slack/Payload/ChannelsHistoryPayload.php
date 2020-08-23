@@ -67,7 +67,7 @@ class ChannelsHistoryPayload extends AbstractPayload
     }
 
     /**
-     * @param string|string|null $latest
+     * @param string|null $latest
      *
      * @return ChannelsHistoryPayload
      */
@@ -79,7 +79,7 @@ class ChannelsHistoryPayload extends AbstractPayload
     }
 
     /**
-     * @return string|string|null
+     * @return string|null
      */
     public function getLatest()
     {

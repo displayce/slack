@@ -67,7 +67,7 @@ class GroupsHistoryPayload extends AbstractPayload
     }
 
     /**
-     * @param string|string|null $latest
+     * @param string|null $latest
      *
      * @return GroupsHistoryPayload
      */
@@ -79,7 +79,7 @@ class GroupsHistoryPayload extends AbstractPayload
     }
 
     /**
-     * @return string|string|null
+     * @return string|null
      */
     public function getLatest()
     {
