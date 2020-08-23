@@ -192,13 +192,11 @@ class ApiClient implements ApiClientInterface
      */
     private function createRequest($method, array $payload)
     {
-        $request = new Request(
+        return new Request(
             'POST',
             self::API_BASE_URL . $method,
             ['Content-Type' => 'application/x-www-form-urlencoded'],
             http_build_query($payload)
         );
-
-        return $request;
     }
 }
